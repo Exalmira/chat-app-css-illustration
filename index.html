@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-app-CSS-illustration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main class="container">
+       <article class="container-article">
+        <div class="block1">
+          <div class="container-article-figure">
+          </div>
+         
+          <div class="container-article-iphone">
+            <div class="rectangle"></div>
+            <div class="iphone-header">
+              <a class="tooltip" href="#"><i class="fa-solid fa-chevron-left"></i></a>
+              <div class="iphone-avatar">
+                 <img src="./img/avatar.jpg" alt="avatar">
+              </div>
+              <div class="iphone-information">
+                 <p>Samuel Green </p>
+                 <p> Available to Walk</p>
+              </div>
+              <a class="tooltip" href="#">
+                 <i class="fa-solid fa-ellipsis-vertical"></i>
+                 <span class="tooltip-box">View contact</span>
+              </a>
+            </div>
+            <div class="text bubble-left">
+             <p>That sounds great. I’d be happy with that.</p>
+            </div>
+            <div class="text bubble-left">
+             <p>Could you send over some pictures of your dog, please?</p>
+            </div>
+            <div class="images-right">
+             <img src="./img/dog-image-1.jpg" alt="dog-image-1" />
+             <img src="./img/dog-image-2.jpg" alt="dog-image-2" />
+             <img src="./img/dog-image-3.jpg" alt="dog-image-3" />
+            </div>
+            <div class="text bubble-right">
+             <p>Here are a few pictures. She’s a happy girl!</p>
+            </div>
+            <div class="text bubble-right bubble-right-last">
+             <p>Can you make it?</p>
+            </div>
+            <div class="text bubble-left">
+             <p>
+               She looks so happy! The time we discussed works. How long shall
+               I take her out for?
+             </p>
+            </div>
+            <div class="text bubble-left lg-bubble">
+              <i class="fa-regular fa-circle"></i>
+              <p>30 minute walk</p>
+              <p><span class="amount">$29</span></p>
+            </div>
+            <div class="text bubble-left lg-bubble">
+              <i class="fa-regular fa-circle"></i>
+              <p>1 hour walk</p>
+              <p><span class="amount">$49</span></p>
+            </div>
+            <form id="my-form">
+                <div class="input-grp">
+                    <div class="message-input">
+                        <input type="text" placeholder="Type a message..." />
+                        <a class="tooltip"
+                          href=""
+                          onclick="document.getElementById('my-form').submit()"
+                          type="submit"
+                          ><i class="fa-solid fa-circle-chevron-right fa-lg"></i>
+                          <span class="tooltip-box">Send Message</span>
+                       </a>
+                    </div>
+                </div>
+            </form>
+                
+          </div>
+        
+         </div>
+          <div class="container-article-paragraph">
+            <div class="article-center">
+              <h1>Simple Booking</h1>
+              <p>Stay in touch with our dog walkers through the chat interface. This
+                makes it easy to discuss arrangements and make bookings. Once the
+                walk has been completed you can rate your walker and book again all
+                through the chat.
+              </p>
+           </div>
+           <div class="figure-shadow"></div>
+          </div>
+       </article> 
+    </main>
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/Exalmira">Nataly Miranda</a>.
+    </footer>
+    <script src="https://kit.fontawesome.com/3d57cca0be.js" crossorigin="anonymous"></script>
+</body>
+</html>
